@@ -156,6 +156,11 @@ form img {
     /* gap: 5rem ; */
     justify-content: space-evenly;
 }
+.offer_products img{
+    padding: 0.5rem;
+    border: 1px dashed black;
+
+}
 .first_row{
     padding: 1rem;
 }
