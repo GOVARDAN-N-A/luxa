@@ -11,11 +11,8 @@
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
-    
-<<<<<<< HEAD
 
-=======
->>>>>>> 310e2a76a7e553cb0e6245660ac80a28ba94404a
+    <<<<<<< HEAD=======>>>>>>> 310e2a76a7e553cb0e6245660ac80a28ba94404a
 </head>
 
 <body>
@@ -48,7 +45,7 @@
     </section>
     <section class="top_offers">
         <p class="top_offer_p">Top Offers</p>
-        <div class="offer_products" >
+        <div class="offer_products">
 
             <div class="first_row">
                 <img src="images/mobiles/iphone 14.webp" alt="" width="180" height="220">
@@ -92,15 +89,28 @@
             </div> -->
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script src="js/script.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+            <script src="js/script.js"></script>
 
 
         </div>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script defer src="js/script.js"></script>
-    
+    <!-- <script defer src="js/script.js"></script> -->
+    <script>
+        $(document).ready(function () {
+            $('#containerSlider').slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+        });
+
+    </script>
+
 
 </body>
 
