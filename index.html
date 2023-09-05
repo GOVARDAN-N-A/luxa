@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
 
 
 </head>
@@ -50,13 +52,13 @@
     </section>
     <section class="top_offers">
         <p class="top_offer_p">Top Offers</p>
-        <div class="offer_products">
+        <div class="offer_products" id="containerSlider2">
 
             <div class="first_row">
                 <a href="#"><img src="images/mobiles/iphone 14.webp" alt="" width="180" height="220"></a>
 
                 <h2>45% OFFER</h2>
-                <p class="price">₹ 65000 &nbsp;<span>MRP:<strike>₹ 75000</strike></span></p>
+                <p class="price">₹ 2000 &nbsp;<span>MRP:<strike>₹ 75000</strike></span></p>
 
 
             </div>
@@ -103,21 +105,14 @@
 
 
         </div>
+        <div class="slider-nav">
+            <button class="prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="next"><i class="fas fa-chevron-right"></i></button>
+        </div>
     </section>
 
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $('#containerSlider').slick({
-            dots: true,
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 2000,
-        });
-    });
-</script>
+<script src="js/script.js"></script>
 
 </html>
