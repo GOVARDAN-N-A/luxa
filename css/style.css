@@ -67,8 +67,8 @@ input[type="text"] {
     border-radius: 1rem 0 0rem 1rem;
 }
 form img {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
     /* padding: 0.1rem; */
     background-color: rgba(255, 255, 255, 0.695);
@@ -163,15 +163,55 @@ form img {
 }
 .first_row{
     padding: 1rem;
+    text-align: center;
 }
 #containerSlider2{
     overflow: hidden; 
 }
-
-/* 
-.offer_products{
+#containerSlider2 .slick-slide {
     display: flex;
-} */
+    justify-content: center;
+    align-items: center;
+}
+
+.offer_products{
+    margin: 10px auto;
+}
+/* Position the navigation buttons */
+.slider-nav {
+    display: flex;
+    position: relative;
+    top: -200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider-nav button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: rgba(83, 106, 126, 0.289);
+    
+}
+
+.slider-nav button.prev {
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+.slider-nav button.next {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* Adjust button styles on hover */
+.prev:hover i,
+.next:hover i {
+    color: #FF5733; /* Change to your desired hover color */
+}
+
 @media(max-width: 732px)
 {
     #containerSlider img
@@ -184,5 +224,8 @@ form img {
     #containerSlider img
     {
         height: 10em;
+    }
+    #containerSlider2 .slick-slide {
+        flex: 0 0 100%; 
     }
 }
