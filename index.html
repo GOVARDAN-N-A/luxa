@@ -7,9 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LUXE</title>
     <link rel="shortcut icon" href="images/luxe.png" type="image/x-icon">
-    <link rel="icon"
-        href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo"
-        type="image/gif" sizes="16x16">
+    
     <!-- EXTERNAL LINKS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -25,6 +23,9 @@
 </head>
 
 <body>
+    <div class="loading" id="pre-loading">
+        <!-- <img src="images/loading.gif" alt=""> -->
+    </div>
     <section class="header">
         <div class="navbars">
             <img src="images/humberg.png" alt="" width="50" height="50" class="humberg">
@@ -46,7 +47,8 @@
         <div id="containerSlider">
             <div id="slidingImage"> <img src="images/Shoe Banner 2.png" alt="image1" loading="lazy"> </div>
             <div id="slidingImage"> <img src="images/Watch Banner 3.png" alt="image2" loading="lazy"> </div>
-            <div id="slidingImage"> <img src="images/jewellery Banner 2.jpg" alt="image3" width="970" height="250" loading="lazy">
+            <div id="slidingImage"> <img src="images/jewellery Banner 2.jpg" alt="image3" width="970" height="250"
+                    loading="lazy">
             </div>
             <div id="slidingImage"> <img src="images/hoodie bannner 2.png" alt="image4" loading="lazy"> </div>
             <div id="slidingImage"> <img src="images/Earbuds Banner 2.png " alt="image4" loading="lazy"> </div>
@@ -114,108 +116,144 @@
         </div>
     </section>
 
-<!--****************************** Today Deals Section ******************************-->
+    <!--****************************** Today Deals Section ******************************-->
 
 
-<section class="today_deals">
-    <p class="today_deals_p">Today Deals</p>
-    <div class="offer_products" id="containerSlider3">
+    <section class="today_deals">
+        <p class="today_deals_p">Today Deals</p>
+        <div class="offer_products" id="containerSlider3">
 
-        <div class="second_row">
-            <a href="#"><img src="images/Ornaments/Necklace.png" alt="" width="205" height="230" loading="lazy"></a>
-            <div class="info">
-                <h2>Necklace</h2>
-                <h2>45% OFFER</h2>
-                <p class="price">₹ 50000 &nbsp;<span>MRP:<strike>₹ 75000</strike></span></p>
+            <div class="second_row">
+                <a href="#"><img src="images/Ornaments/Necklace.png" alt="" width="205" height="230" loading="lazy"></a>
+                <div class="info">
+                    <h2>Necklace</h2>
+                    <h2>45% OFFER</h2>
+                    <p class="price">₹ 50000 &nbsp;<span>MRP:<strike>₹ 75000</strike></span></p>
+                </div>
+
+            </div>
+            <div class="second_row">
+                <a href="#"><img src="images/stationaries/parker_hero.png" alt="" width="230" height="230"
+                        loading="lazy"> </a>
+                <div class="info">
+                    <h2>Parker</h2>
+                    <h2>61% OFFER</h2>
+                    <p class="price">₹ 850 &nbsp;<span>MRP:<strike>₹ 1000</strike></span></p>
+                </div>
+            </div>
+            <div class="second_row">
+                <a href="#"><img src="images/Laptops/Dell_vostro.png" alt="" width="250" height="230"
+                        loading="lazy"></a>
+                <div class="info">
+                    <h2>Dell Vostro</h2>
+                    <h2>25% OFFER</h2>
+                    <p class="price">₹ 75000 &nbsp;<span>MRP:<strike>₹ 90000</strike></span></p>
+                </div>
+
+            </div>
+            <div class="second_row">
+                <a href="#"><img src="images/Ornaments/makeup-kits.png" alt="" width="220" height="230"
+                        loading="lazy"></a>
+                <div class="info">
+                    <h2>Makeup Kits</h2>
+                    <h2>10% OFFER</h2>
+                    <p class="price">₹ 1000 &nbsp;<span>MRP:<strike>₹ 1200</strike></span></p>
+                </div>
+            </div>
+            <div class="second_row">
+                <a href="#"><img src="images/Essentials/goldwinner.png" alt="" width="180" height="230"
+                        loading="lazy"></a>
+                <div class="info">
+                    <h2>Gold Winner</h2>
+                    <h2>10% OFFER</h2>
+                    <p class="price">₹ 900 &nbsp;<span>MRP:<strike>₹ 925</strike></span></p>
+                </div>
+            </div>
+            <div class="second_row">
+                <a href="#"><img src="images/fashions/sunglass.png" alt="" width="240" height="230" loading="lazy"></a>
+                <div class="info">
+                    <h2>Sun Glass</h2>
+                    <h2>33% OFFER</h2>
+                    <p class="price">₹ 150 &nbsp;<span>MRP:<strike>₹ 250</strike></span></p>
+                </div>
             </div>
 
         </div>
-        <div class="second_row">
-            <a href="#"><img src="images/stationaries/parker_hero.png" alt="" width="230" height="230" loading="lazy"> </a>
-            <div class="info">
-                <h2>Parker</h2>
-                <h2>61% OFFER</h2>
-                <p class="price">₹ 850 &nbsp;<span>MRP:<strike>₹ 1000</strike></span></p>
-            </div>
+        <div class="slider-nav2">
+            <button class="prev2"><i class="fas fa-chevron-left"></i></button>
+            <button class="next2"><i class="fas fa-chevron-right"></i></button>
         </div>
-        <div class="second_row">
-            <a href="#"><img src="images/Laptops/Dell_vostro.png" alt="" width="250" height="230" loading="lazy"></a>
-            <div class="info">
-                <h2>Dell Vostro</h2>
-                <h2>25% OFFER</h2>
-                <p class="price">₹ 75000 &nbsp;<span>MRP:<strike>₹ 90000</strike></span></p>
-            </div>
-
-        </div>
-        <div class="second_row">
-            <a href="#"><img src="images/Ornaments/makeup-kits.png" alt="" width="220" height="230" loading="lazy"></a>
-            <div class="info">
-                <h2>Makeup Kits</h2>
-                <h2>10% OFFER</h2>
-                <p class="price">₹ 1000 &nbsp;<span>MRP:<strike>₹ 1200</strike></span></p>
-            </div>
-        </div>
-        <div class="second_row">
-            <a href="#"><img src="images/Essentials/goldwinner.png" alt="" width="180" height="230" loading="lazy"></a>
-            <div class="info">
-                <h2>Gold Winner</h2>
-                <h2>10% OFFER</h2>
-                <p class="price">₹ 900 &nbsp;<span>MRP:<strike>₹ 925</strike></span></p>
-            </div>
-        </div>
-        <div class="second_row">
-            <a href="#"><img src="images/fashions/sunglass.png" alt="" width="240" height="230" loading="lazy"></a>
-            <div class="info">
-                <h2>Sun Glass</h2>
-                <h2>33% OFFER</h2>
-                <p class="price">₹ 150 &nbsp;<span>MRP:<strike>₹ 250</strike></span></p>
-            </div>
-        </div>
-
-    </div>
-    <div class="slider-nav2">
-        <button class="prev2"><i class="fas fa-chevron-left"></i></button>
-        <button class="next2"><i class="fas fa-chevron-right"></i></button>
-    </div>
-</section>
-<!-- ************************* Footer Section ************************* -->
-
-<footer>
-    <section>    
-        <div id="containerFooter">
-            
-            <div id="webFooter">
-                <a href=""><h3>online store </h3></a>
-                <a href=""><p> men clothing </p></a>
-                <a href=""><p> women clothing </p></a>
-                <a href=""><p> men accessories </p></a>
-                <a href=""><p> women accessories </p></a>
-            </div>
-            <div id="webFooter">
-                <a href=""><h3> helpful link </h3></a>
-                <a href=""><p> home </p></a>
-                <a href=""><p> about </p></a>
-                <a href=""><p> contact </p></a>
-            </div>
-            <div id="webFooter">
-                <a href=""><h3>partners </h3></a>
-                <a href=""><p> Ooto </p></a>
-                <a href=""><p> pantaloons </p></a>
-                <a href=""><p> levis </p></a>
-                <a href=""><p> Crocodile </p></a>
-            </div>
-            <div id="webFooter">
-                <a href=""><h3> address </h3></a>
-                <a href=""><p> building 101 </p></a>
-                <a href=""><p> central avenue </p></a>
-                <a href=""><p> la - 902722 </p></a>
-                <a href=""><p> united states </p></a>
-            </div>
-        </div>
-        <div id="credit"><a href="https://www.linkedin.com/in/govardanna/" target="_blank"> © Govardan </a> &nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp <a href="https://govardan-n-a.github.io/luxa/" target="_blank"> LUXE </a></div>
     </section>
+    <!-- ************************* Footer Section ************************* -->
 
-</footer>
+    <footer>
+        <section>
+            <div id="containerFooter">
+
+                <div id="webFooter">
+                    <a href="">
+                        <h3>online store </h3>
+                    </a>
+                    <a href="">
+                        <p> men clothing </p>
+                    </a>
+                    <a href="">
+                        <p> women clothing </p>
+                    </a>
+                    <a href="">
+                        <p> men accessories </p>
+                    </a>
+                    <a href="">
+                        <p> women accessories </p>
+                    </a>
+                </div>
+                <div id="webFooter">
+                    <a href="">
+                        <h3> helpful link </h3>
+                    </a>
+                    <a href="">
+                        <p> home </p>
+                    </a>
+                    <a href="">
+                        <p> about </p>
+                    </a>
+                    <a href="">
+                        <p> contact </p>
+                    </a>
+                </div>
+                <div id="webFooter">
+                    <a href="">
+                        <h3>partners </h3>
+                    </a>
+                    <a href="">
+                        <p> Ooto </p>
+                    </a>
+                    <a href="">
+                        <p> pantaloons </p>
+                    </a>
+                    <a href="">
+                        <p> levis </p>
+                    </a>
+                    <a href="">
+                        <p> Crocodile </p>
+                    </a>
+                </div>
+                <div id="webFooter">
+                    <h3> address </h3>
+                    <address>
+                        <a href="https://www.google.com/maps/search/Mela+Rani+Street,+Trichy/@10.8113964,78.6893216,13.99z?entry=ttu"><p> Big Bazzar </p></a>
+                        <p> Trichy </p>
+                        <p> TamilNadu </p>
+                        <p> India </p>
+                    </address>
+                </div>
+            </div>
+            <div id="credit"><a href="https://www.linkedin.com/in/govardanna/" target="_blank"> © Govardan </a>
+                &nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp <a href="https://govardan-n-a.github.io/luxa/" target="_blank"> LUXE
+                </a></div>
+        </section>
+
+    </footer>
 
 
 </body>
