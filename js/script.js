@@ -45,4 +45,41 @@ $(document).ready(function () {
         $('#containerSlider2').slick('slickNext');
     });
 
+    
+    $('#containerSlider3').slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 768, 
+                settings: {
+                    slidesToShow: 2, 
+                }
+            },
+            {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+    $('.prev2').click(function () {
+        $('#containerSlider3').slick('slickPrev');
+    });
+
+    $('.next2').click(function () {
+        $('#containerSlider3').slick('slickNext');
+    });
+
 });
