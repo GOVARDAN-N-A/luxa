@@ -1,3 +1,9 @@
+var loading = document.getElementById("pre-loading")
+window.addEventListener("load", function(){
+  loading.style.display = "none";
+})
+
+
 $(document).ready(function () {
     // Slick carousel for containerSlider
     $('#containerSlider').slick({
