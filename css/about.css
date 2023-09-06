@@ -21,8 +21,8 @@
   }
 
   #pre-loading{
-    background: #f0f1f3 url("images/loading\ \(1\).gif") no-repeat center;
-    background-size: 15%;
+    background: white url("../images/loading.gif") no-repeat center;
+    background-size: 35%;
     top: 0%;
     width: 100vw;
     height: 100vh;
