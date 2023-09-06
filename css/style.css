@@ -6,6 +6,15 @@
     overflow-x: hidden;
     
 }
+#pre-loading{
+    background: white url("../images/loading.gif") no-repeat center;
+    background-size: 35%;
+    top: 0%;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+  }
 a{
     text-decoration: none;
 }
@@ -71,7 +80,7 @@ input[type="text"] {
     border-radius: 1rem 0 0rem 1rem;
 }
 form img {
-    width: 40px;
+    width: 50px;
     height: 40px;
     cursor: pointer;
     /* padding: 0.1rem; */
@@ -114,8 +123,8 @@ form img {
 }
 .top_offers{
     margin: 20px 20px;
-    border: 0px solid white;
-    background-color: whitesmoke;
+    border: 0px solid rgb(236, 223, 223);
+    background-color:  rgb(249, 218, 235);
     border-radius:2rem 10px 10px 10px;
 }
 .top_offer_p{
@@ -129,7 +138,7 @@ form img {
     padding: 1rem;
     border-radius:0 0 2rem 0 ;
     /* background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000); */
-    background: linear-gradient(45deg, rgb(255, 0, 157), rgba(237, 236, 232, 0.485), rgb(255, 0, 157), rgb(255, 0, 123));
+    background: linear-gradient(45deg, rgb(239, 6, 6), rgba(255, 250, 250, 0.71), rgb(255, 34, 0), rgb(255, 25, 0));
     
     background-size: 400%;
     /* position: absolute;
@@ -197,8 +206,10 @@ form img {
     background: none;
     border: none;
     font-size: 24px;
+    border-radius: 50rem;
     cursor: pointer;
     color: rgba(83, 106, 126, 0.289);
+    
     
 }
 
