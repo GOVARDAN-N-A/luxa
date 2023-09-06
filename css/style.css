@@ -132,7 +132,7 @@ form img {
     top: -2px;
     left:-2px;
     filter: blur(5px);     */
-    width: calc(170px + 4px);
+    width: calc(10.625rem + 4px);
     height: calc(100% + 4px);
     animation: glowing 5s linear infinite;
 }
@@ -157,13 +157,16 @@ form img {
     justify-content: space-evenly;
 }
 .offer_products img{
-    padding: 0.5rem;
+    padding: 0.2rem;
         /* border: 1px dashed black; */
 
 }
 .first_row{
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #containerSlider2{
     overflow: hidden; 
@@ -204,6 +207,12 @@ form img {
 .slider-nav button.next {
     margin-left: 20px;
     margin-right: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
 }
 
 /* Adjust button styles on hover */
