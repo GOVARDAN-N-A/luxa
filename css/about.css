@@ -21,7 +21,7 @@
   }
 
   #pre-loading{
-    background: white url("../images/loading.gif") no-repeat center;
+    background: white url("../images/loading2.gif") no-repeat center;
     background-size: 35%;
     top: 0%;
     width: 100vw;
@@ -323,7 +323,9 @@
       display: flex;
       align-items: center;
     }
-
+    #pre-loading{
+      background-size: 35%;
+  }
     
     
     .navbar {

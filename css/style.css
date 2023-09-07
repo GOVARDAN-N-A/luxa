@@ -7,7 +7,7 @@
     
 }
 #pre-loading{
-    background: white url("../images/loading.gif") no-repeat center;
+    background: white url("../images/loading2.gif") no-repeat center;
     background-size: 35%;
     top: 0%;
     width: 100vw;
@@ -242,6 +242,9 @@ form img {
     {
         height: 12em;
     }
+    #pre-loading{
+        background-size: 35%;
+    }
 }
 @media(max-width: 500px)
 {
@@ -251,5 +254,8 @@ form img {
     }
     #containerSlider2 .slick-slide {
         flex: 0 0 100%; 
+    }
+    #pre-loading{
+        background-size: 35%;
     }
 }
