@@ -165,10 +165,7 @@ $(document).ready(function () {
 //       navbar.style.display = 'block';
 //     }
 //   }
-var loading = document.getElementById("pre-loading")
-window.addEventListener("load", function(){
-  loading.style.display = "none";
-})
+
 document.addEventListener('DOMContentLoaded', function() {
   const moreAboutBtn = document.getElementById('more-about-btn');
   const socialIcons = document.getElementById('social-icons');
