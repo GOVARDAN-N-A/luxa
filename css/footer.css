@@ -4,13 +4,16 @@ body
     font-family: 'Lato', sans-serif;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+footer{
+    background-color: black;
+    background-image: url(../images/footer2.png);
+}
 #containerFooter
 {
     margin-top: 30px;
     width: 100%;
-    background-color: rgb(29, 29, 29);
-    color: white;
+    /* background-color: rgb(29, 29, 29); */
+    color: #b6968c;
     letter-spacing: 1px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -21,11 +24,11 @@ body
 }
 a{
     text-decoration: none;
-    color: white;
+    color: #b6968c;
 }
 #containerFooter h3:hover, #containerFooter p:hover
 {
-    color: lightslategray;
+    color: rgb(223, 234, 245);
     cursor: pointer;
 }
 #webFooter
@@ -42,8 +45,10 @@ a{
     margin: auto;
     padding: 20px 0;
     text-align: center;
-    background-color: rgb(29, 29, 29);
-    color: white;
+    /* background-color: black; */
+    /* background-image: url("../images/footerbg.png");
+    background-position: top 0px; */
+    color: #b6968c;
     font-size: 1.3rem;
     letter-spacing: 1px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -51,7 +56,7 @@ a{
 
 #credit a
 {
-    color: white;
+    color: #b6968c;
     text-decoration: none;
     position: relative;
 }

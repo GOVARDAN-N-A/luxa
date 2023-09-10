@@ -8,12 +8,13 @@
 }
 #pre-loading{
     background: white url("../images/loading2.gif") no-repeat center;
-    background-size: 35%;
+    background-size: 15%;
     top: 0%;
     width: 100vw;
     height: 100vh;
     position: fixed;
     z-index: 100;
+    overflow: hidden;
   }
 a{
     text-decoration: none;
@@ -124,7 +125,7 @@ form img {
 .top_offers{
     margin: 20px 20px;
     border: 0px solid rgb(236, 223, 223);
-    background-color:  rgb(249, 218, 235);
+    background-color: whitesmoke;
     border-radius:2rem 10px 10px 10px;
 }
 .top_offer_p{
